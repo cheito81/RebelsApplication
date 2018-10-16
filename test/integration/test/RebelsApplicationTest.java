@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
  * @author jgc_
  */
 @RunWith(value = Parameterized.class)
-public class RebelsApplicationTest extends HttpServlet{
+public class RebelsApplicationTest{
     private RebelsService rebelsService;
     private String name ="";
     private String planet ="";
