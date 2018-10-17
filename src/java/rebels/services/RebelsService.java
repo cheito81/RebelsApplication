@@ -55,7 +55,7 @@ public class RebelsService {
     }
     
     @POST
-    @Path("/insert")
+    @Path("/register")
     public boolean insertRebel(@FormParam("name") String name, @FormParam("planet") String planet){
         boolean response = false;
   
