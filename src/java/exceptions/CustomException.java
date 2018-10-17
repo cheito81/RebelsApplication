@@ -6,9 +6,14 @@ package exceptions;
  * @author jgc_
  */
 public class CustomException extends Exception{
-    String tipusError;
+    String message;
     public CustomException(String message){
-        super(message);
-        this.tipusError = tipusError;
+        this.message = message;
     }
+
+    public String getMessage() {
+        return message;
+    }
+
+
 }

@@ -15,22 +15,22 @@ import org.apache.log4j.PropertyConfigurator;
  * @author jgc_
  */
 public class RebelDAO {
-    private RebelDaoInterface rebeldDao;
+    private RebelDaoInterface rebeldArrayDaoObj;
     private static final Logger log =Logger.getLogger(RebelDAO.class);
     public RebelDAO(){
-    rebeldDao = new RebelArrayDao();
+      rebeldArrayDaoObj = new RebelArrayDao();
        PropertyConfigurator.configure(RebelsFunctions.getRuta(this.getClass())+"WEB-INF"+ File.separator+"config"+ File.separator +"log4j.properties");
     }
     
     public List<Rebel> findAllRebelds(){
 
-        return rebeldDao.findAll();
+        return rebeldArrayDaoObj.findAll();
     }
     
     public synchronized boolean insert(Rebel rebeldObj){
         String result ="";
 
-        if (rebeldDao.insert(rebeldObj)) return true;
+        if (rebeldArrayDaoObj.insert(rebeldObj)) return true;
         else return false;
        
     }
