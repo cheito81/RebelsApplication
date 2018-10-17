@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package rebels.services;
 
 import com.google.gson.Gson;
@@ -25,7 +21,7 @@ import controller.RebelController;
 import model.Rebel;
 
 /**
- * REST Web Service
+ * RebelsService
  *
  * @author jgc_
  */
