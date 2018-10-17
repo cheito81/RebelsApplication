@@ -47,7 +47,8 @@ public class RebelsService {
     }
 
     @GET
-    @Path("/searchAll")
+    @Produces(MediaType.APPLICATION_JSON)
+        //@Path("/searchAll")
     public String getRebels() {
         
         String rebeldList = controller.getRebels();
