@@ -64,3 +64,15 @@
 2018-10-17 11:18:29,887  INFO [main] - controller.RebelController.insertRebel 39 - Starting to insert rebel
 2018-10-17 11:18:29,893  INFO [main] - model.RebelDAO.insertRebel 55 - msg: Registry inserted correctly
 2018-10-17 11:18:29,894  INFO [main] - controller.RebelController.insertRebel 42 - insert rebel finished
+2018-10-18 10:32:14,997 DEBUG [main] - controller.RebelController.<init> 35 - Debug, message controller
+2018-10-18 10:32:15,015  INFO [main] - controller.RebelController.insertRebel 39 - Starting to insert rebel
+2018-10-18 10:32:15,016  INFO [main] - model.RebelDAO.insertRebel 57 - Info: registry not inserted rebel of planet earth!
+2018-10-18 10:32:15,017  INFO [main] - controller.RebelController.insertRebel 42 - insert rebel finished
+2018-10-18 10:32:15,117 DEBUG [main] - controller.RebelController.<init> 35 - Debug, message controller
+2018-10-18 10:32:15,118  INFO [main] - controller.RebelController.insertRebel 39 - Starting to insert rebel
+2018-10-18 10:32:15,120  INFO [main] - model.RebelDAO.insertRebel 57 - Info: registry not inserted rebel of planet earth!
+2018-10-18 10:32:15,121  INFO [main] - controller.RebelController.insertRebel 42 - insert rebel finished
+2018-10-18 10:32:15,190 DEBUG [main] - controller.RebelController.<init> 35 - Debug, message controller
+2018-10-18 10:32:15,191  INFO [main] - controller.RebelController.insertRebel 39 - Starting to insert rebel
+2018-10-18 10:32:15,207  INFO [main] - model.RebelDAO.insertRebel 50 - msg: Registry inserted correctly
+2018-10-18 10:32:15,208  INFO [main] - controller.RebelController.insertRebel 42 - insert rebel finished

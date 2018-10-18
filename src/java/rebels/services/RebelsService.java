@@ -42,13 +42,12 @@ public class RebelsService {
          }
     }
 
-    public RebelsService() { //para el test
+    public RebelsService() { //test
         controller = new RebelController();
     }
 
     @GET
-    @Produces(MediaType.APPLICATION_JSON)
-        //@Path("/searchAll")
+    @Path("/searchAll")
     public String getRebels() {
         
         String rebeldList = controller.getRebels();
